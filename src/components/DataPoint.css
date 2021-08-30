@@ -1,0 +1,19 @@
+.table-container {
+	margin-top: 1rem;
+}
+.table-container td {
+	padding-top: 5px;
+	padding-right: 3rem;
+	vertical-align: text-top;
+}
+.table-container td h5 {
+	font-size: 1rem;
+	color: #444444;
+}
+.table-container td p {
+	color: #777777;
+	font-weight: 600;
+}
+.heading {
+	text-align: center;
+}

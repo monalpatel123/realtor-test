@@ -1,0 +1,41 @@
+.table-container {
+	margin-top: 2.2rem;
+	max-width: 80%;
+}
+
+.table-header th {
+	padding: 10px 0;
+	font-size: 1rem;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.table-row td {
+	margin: 3px;
+	padding: 3px 0;
+	font-weight: 600;
+}
+.table-row td:first-child {
+	text-align: left;
+	padding-right: 2rem;
+}
+.table-row td:nth-child(2) {
+	padding: 0 2rem;
+}
+.table-row td:nth-child(3) {
+	padding: 0 2rem;
+}
+@media only screen and (max-width: 600px) {
+	.table-container {
+		max-width: 70%;
+	}
+	.table-row td:nth-child(2) {
+		padding: 0 1rem;
+	}
+}
+.link {
+	color: #0011bb;
+}
+.link:visited {
+	color: #6600cc;
+}

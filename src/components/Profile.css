@@ -1,0 +1,54 @@
+.profile-container {
+	margin-top: 20px;
+}
+.avatar-image {
+	height: 200px;
+	width: 200px;
+	margin-right: 30px;
+}
+.detail div {
+	display: flex;
+}
+.col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 50%;
+}
+.col .row > div {
+	flex: 1;
+}
+.detail h5 {
+	width: 10rem;
+	font-size: 1rem;
+	color: #444444;
+}
+.detail td {
+	padding: 5px 0;
+	vertical-align: text-top;
+}
+.detail tr {
+	margin: 15px 0;
+}
+.detail td p {
+	color: #777777;
+	font-weight: 600;
+	font-size: 1rem;
+}
+@media only screen and (max-width: 600px) {
+	.row {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		min-width: 70%;
+	}
+	.col {
+		max-width: 80%;
+	}
+	.avatar-image {
+		margin-bottom: 1rem;
+	}
+	.detail h5 {
+		width: 8rem;
+	}
+}

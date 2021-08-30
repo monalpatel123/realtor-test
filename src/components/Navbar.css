@@ -1,0 +1,28 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #ededed;
+	padding: 1rem 1rem;
+}
+.nav-logo {
+	height: 40px;
+	width: 40px;
+}
+.nav-heading {
+	font-size: 2rem;
+	color: #777777;
+	text-align: center;
+}
+.temp {
+	color: #ededed;
+	color: #444444;
+	color: #0011bb;
+	color: #6600cc;
+	color: #777777;
+}
+@media only screen and (max-width: 600px) {
+	.nav-heading {
+		font-size: 1.5rem;
+	}
+}
